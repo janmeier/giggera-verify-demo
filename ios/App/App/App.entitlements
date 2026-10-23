@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<!-- Host of RESUME_URL in config.js (the Idura domain). ?mode=developer skips Apple's AASA CDN (needs Developer Mode on the device). -->
+		<string>applinks:janzeh.qa-idura.click?mode=developer</string>
+	</array>
+</dict>
+</plist>

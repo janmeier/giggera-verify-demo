@@ -1,0 +1,20 @@
+{
+  "name": "giggera-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "node --env-file-if-exists=.env server/server.mjs",
+    "build": "vite build",
+    "ios": "vite build && cap sync ios && cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/browser": "^8.0.5",
+    "@capacitor/core": "^8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/ios": "^8.5.3",
+    "vite": "^8.3.5"
+  }
+}
